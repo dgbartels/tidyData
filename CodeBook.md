@@ -22,7 +22,7 @@
 
 
 
-**"timedomainbodyaccelerometermeany" **
+**"timedomainbodyaccelerometermeany"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -32,7 +32,7 @@
 
     
 
-**"timedomainbodyaccelerometermeanz" **
+**"timedomainbodyaccelerometermeanz"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -42,7 +42,7 @@
 
     
 
-**"timedomaingravityaccelerometermeanx" **
+**"timedomaingravityaccelerometermeanx"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -52,7 +52,7 @@
 
     
 
-**"timedomaingravityaccelerometermeany" **
+**"timedomaingravityaccelerometermeany"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -62,7 +62,7 @@
 
     
 
-**"timedomaingravityaccelerometermeanz" **
+**"timedomaingravityaccelerometermeanz"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -72,7 +72,7 @@
 
     
 
-**"timedomainbodyaccelerometerjerkmeanx" **
+**"timedomainbodyaccelerometerjerkmeanx"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -82,7 +82,7 @@
 
     
 
-**"timedomainbodyaccelerometerjerkmeany" **
+**"timedomainbodyaccelerometerjerkmeany"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -102,7 +102,7 @@
 
     
 
-**"timedomainbodygyroscopemeanx" **
+**"timedomainbodygyroscopemeanx"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -112,7 +112,7 @@
 
     
 
-**"timedomainbodygyroscopemeany" **
+**"timedomainbodygyroscopemeany"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -122,7 +122,7 @@
 
     
 
-**"timedomainbodygyroscopemeanz" **
+**"timedomainbodygyroscopemeanz"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -132,7 +132,7 @@
 
     
 
-**"timedomainbodygyroscopejerkmeanx" **
+**"timedomainbodygyroscopejerkmeanx"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -142,7 +142,7 @@
 
     
 
-**"timedomainbodygyroscopejerkmeany" **
+**"timedomainbodygyroscopejerkmeany"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -152,7 +152,7 @@
 
     
 
-**"timedomainbodygyroscopejerkmeanz" **
+**"timedomainbodygyroscopejerkmeanz"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -162,7 +162,7 @@
 
     
 
-**"timedomainbodyaccelerometermagnitudemean" **
+**"timedomainbodyaccelerometermagnitudemean"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -172,7 +172,7 @@
 
     
 
-**timedomaingravityaccelerometermagnitudemean" **
+**timedomaingravityaccelerometermagnitudemean"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -182,7 +182,7 @@
 
     
 
-**"timedomainbodyaccelerometerjerkmagnitudemean" **
+**"timedomainbodyaccelerometerjerkmagnitudemean"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -192,7 +192,7 @@
 
     
 
-**"timedomainbodygyroscopemagnitudemean" **
+**"timedomainbodygyroscopemagnitudemean"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -202,7 +202,7 @@
 
     
 
-**"timedomainbodygyroscopejerkmagnitudemean" **
+**"timedomainbodygyroscopejerkmagnitudemean"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -212,7 +212,7 @@
 
     
 
-**"frequencydomainbodyaccelerometermeanx" **
+**"frequencydomainbodyaccelerometermeanx"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -222,7 +222,7 @@
 
     
 
-**"frequencydomainbodyaccelerometermeany" **
+**"frequencydomainbodyaccelerometermeany"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -232,7 +232,7 @@
 
     
 
-**"frequencydomainbodyaccelerometermeanz" **
+**"frequencydomainbodyaccelerometermeanz"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -242,7 +242,7 @@
 
     
 
-**"frequencydomainbodyaccelerometerjerkmeanx" **
+**"frequencydomainbodyaccelerometerjerkmeanx"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -252,7 +252,7 @@
 
     
 
-**"frequencydomainbodyaccelerometerjerkmeany" **
+**"frequencydomainbodyaccelerometerjerkmeany"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -262,7 +262,7 @@
 
     
 
-**"frequencydomainbodyaccelerometerjerkmeanz" **
+**"frequencydomainbodyaccelerometerjerkmeanz"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -272,7 +272,7 @@
 
     
 
-**"frequencydomainbodygyroscopemeanx" **
+**"frequencydomainbodygyroscopemeanx"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -282,7 +282,7 @@
 
     
 
-**"frequencydomainbodygyroscopemeany" **
+**"frequencydomainbodygyroscopemeany"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -292,7 +292,7 @@
 
     
 
-**"frequencydomainbodygyroscopemeanz" **
+**"frequencydomainbodygyroscopemeanz"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -302,7 +302,7 @@
 
     
 
-**"frequencydomainbodyaccelerometermagnitudemean" **
+**"frequencydomainbodyaccelerometermagnitudemean"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -312,7 +312,7 @@
 
     
 
-**"frequencydomainbodyaccelerometerjerkmagnitudemean" **
+**"frequencydomainbodyaccelerometerjerkmagnitudemean"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -322,7 +322,7 @@
 
     
 
-**"frequencydomainbodygyroscopemagnitudemean" **
+**"frequencydomainbodygyroscopemagnitudemean"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -332,7 +332,7 @@
 
     
 
-**"frequencydomainbodygyroscopejerkmagnitudemean" **
+**"frequencydomainbodygyroscopejerkmagnitudemean"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -342,7 +342,7 @@
 
     
 
-**"timedomainbodyaccelerometerstdx" **
+**"timedomainbodyaccelerometerstdx"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -352,7 +352,7 @@
 
     
 
-**"timedomainbodyaccelerometerstdy" **
+**"timedomainbodyaccelerometerstdy"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -362,7 +362,7 @@
 
     
 
-**"timedomainbodyaccelerometerstdz" **
+**"timedomainbodyaccelerometerstdz"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -372,7 +372,7 @@
 
     
 
-**"timedomaingravityaccelerometerstdx" **
+**"timedomaingravityaccelerometerstdx"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -382,7 +382,7 @@
 
     
 
-**"timedomaingravityaccelerometerstdy" **
+**"timedomaingravityaccelerometerstdy"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -392,7 +392,7 @@
 
     
 
-**"timedomaingravityaccelerometerstdz" **
+**"timedomaingravityaccelerometerstdz"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -402,7 +402,7 @@
 
     
 
-**"timedomainbodyaccelerometerjerkstdx" **
+**"timedomainbodyaccelerometerjerkstdx"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -412,7 +412,7 @@
 
     
 
-**"timedomainbodyaccelerometerjerkstdy" **
+**"timedomainbodyaccelerometerjerkstdy"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -422,7 +422,7 @@
 
     
 
-**"timedomainbodyaccelerometerjerkstdz" **
+**"timedomainbodyaccelerometerjerkstdz"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -432,7 +432,7 @@
 
     
 
-**"timedomainbodygyroscopestdx" **
+**"timedomainbodygyroscopestdx"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -442,7 +442,7 @@
 
     
 
-**"timedomainbodygyroscopestdy" **
+**"timedomainbodygyroscopestdy"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -452,7 +452,7 @@
 
     
 
-**"timedomainbodygyroscopestdz" **
+**"timedomainbodygyroscopestdz"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -462,7 +462,7 @@
 
     
 
-**"timedomainbodygyroscopejerkstdx" **
+**"timedomainbodygyroscopejerkstdx"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -472,7 +472,7 @@
 
     
 
-**"timedomainbodygyroscopejerkstdy" **
+**"timedomainbodygyroscopejerkstdy"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -482,7 +482,7 @@
 
     
 
-**"timedomainbodygyroscopejerkstdz" **
+**"timedomainbodygyroscopejerkstdz"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -492,7 +492,7 @@
 
     
 
-**"timedomainbodyaccelerometermagnitudestd" **
+**"timedomainbodyaccelerometermagnitudestd"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -502,7 +502,7 @@
 
     
 
-**"timedomaingravityaccelerometermagnitudestd" **
+**"timedomaingravityaccelerometermagnitudestd"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -512,7 +512,7 @@
 
     
 
-**"timedomainbodyaccelerometerjerkmagnitudestd" **
+**"timedomainbodyaccelerometerjerkmagnitudestd"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -522,7 +522,7 @@
 
     
 
-**"timedomainbodygyroscopemagnitudestd" **
+**"timedomainbodygyroscopemagnitudestd"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -532,7 +532,7 @@
 
     
 
-**"timedomainbodygyroscopejerkmagnitudestd" **
+**"timedomainbodygyroscopejerkmagnitudestd"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -542,7 +542,7 @@
 
     
 
-**"frequencydomainbodyaccelerometerstdx" **
+**"frequencydomainbodyaccelerometerstdx"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -552,7 +552,7 @@
 
     
 
-**"frequencydomainbodyaccelerometerstdy" **
+**"frequencydomainbodyaccelerometerstdy"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -562,7 +562,7 @@
 
     
 
-**"frequencydomainbodyaccelerometerstdz" **
+**"frequencydomainbodyaccelerometerstdz"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -572,7 +572,7 @@
 
     
 
-**"frequencydomainbodyaccelerometerjerkstdx" **
+**"frequencydomainbodyaccelerometerjerkstdx"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -582,7 +582,7 @@
 
     
 
-**"frequencydomainbodyaccelerometerjerkstdy" **
+**"frequencydomainbodyaccelerometerjerkstdy"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -592,7 +592,7 @@
 
     
 
-**"frequencydomainbodyaccelerometerjerkstdz" **
+**"frequencydomainbodyaccelerometerjerkstdz"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -602,7 +602,7 @@
 
     
 
-**"frequencydomainbodygyroscopestdx" **
+**"frequencydomainbodygyroscopestdx"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -612,7 +612,7 @@
 
     
 
-**"frequencydomainbodygyroscopestdy" **
+**"frequencydomainbodygyroscopestdy"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -622,7 +622,7 @@
 
     
 
-**"frequencydomainbodygyroscopestdz" **
+**"frequencydomainbodygyroscopestdz"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -632,7 +632,7 @@
 
     
 
-**"frequencydomainbodyaccelerometermagnitudestd" **
+**"frequencydomainbodyaccelerometermagnitudestd"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -642,7 +642,7 @@
 
     
 
-**"frequencydomainbodyaccelerometerjerkmagnitudestd" **
+**"frequencydomainbodyaccelerometerjerkmagnitudestd"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -652,7 +652,7 @@
 
     
 
-**"frequencydomainbodygyroscopemagnitudestd" **
+**"frequencydomainbodygyroscopemagnitudestd"**
 
     -   values: normalized and bounded within [-1,1]
 
@@ -662,7 +662,7 @@
 
     
 
-**"frequencydomainbodygyroscopejerkmagnitudestd"**
+**“frequencydomainbodygyroscopejerkmagnitudestd"**
 
     -   values: normalized and bounded within [-1,1]
 

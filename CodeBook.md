@@ -40,6 +40,20 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
 
 
+The assignment asks for a codebook for our submitted tidy data set. For
+Information on raw data, see the original source documents at:
+
+
+
+<http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
+
+
+
+The code book specification asks for units. All quantities here are
+dimensionless as they have been normalized in the raw data.
+
+
+
 **“subject”**
 
     -   value: 1:30
@@ -55,14 +69,26 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
 **“activitylabel"**
 
-    -   values: “WALKING”, “WALKING_UPSTAIRS”, “WALKING_DOWNSTAIRS”, “SITTING”,
-        “STANDING”, “LAYING"
+    -   factor levels: “WALKING”, “WALKING_UPSTAIRS”, “WALKING_DOWNSTAIRS”,
+        “SITTING”, “STANDING”, “LAYING"
 
     -   original source: activity_labels.txt / UCI HAR Dataset
 
     -   original feature.txt variable name: N/A
 
+    
 
+**"timedomainbodyaccelerometermeanx"**
+
+    -   values: normalized and bounded within [-1,1]
+
+    -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
+
+    -   original feature.txt variable name:
+
+        -   **"tBodyAcc-mean()-X"**
+
+    
 
 **"timedomainbodyaccelerometermeany"**
 
@@ -72,7 +98,7 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
-    
+        -   **"tBodyAcc-mean()-Y"**
 
 **"timedomainbodyaccelerometermeanz"**
 
@@ -82,6 +108,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"tBodyAcc-mean()-Z" **
+
     
 
 **"timedomaingravityaccelerometermeanx"**
@@ -90,7 +118,9 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
-    -   original feature.txt variable name:
+    -   original feature.txt variable name:**  **
+
+        -   **"tGravityAcc-mean()-X"**
 
     
 
@@ -102,6 +132,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"tGravityAcc-mean()-Y"**
+
     
 
 **"timedomaingravityaccelerometermeanz"**
@@ -111,6 +143,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"tGravityAcc-mean()-Z"**
 
     
 
@@ -122,6 +156,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"tBodyAccJerk-mean()-X"**
+
     
 
 **"timedomainbodyaccelerometerjerkmeany"**
@@ -132,15 +168,19 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"tBodyAccJerk-mean()-Y"**
+
     
 
-**"timedomainbodyaccelerometerjerkmeanz" **
+**"timedomainbodyaccelerometerjerkmeanz"**
 
     -   values: normalized and bounded within [-1,1]
 
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"tBodyAccJerk-mean()-Z" **
 
     
 
@@ -152,6 +192,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"tBodyGyro-mean()-X"**
+
     
 
 **"timedomainbodygyroscopemeany"**
@@ -161,6 +203,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"tBodyGyro-mean()-Y" **
 
     
 
@@ -172,6 +216,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"tBodyGyro-mean()-Z"**
+
     
 
 **"timedomainbodygyroscopejerkmeanx"**
@@ -181,6 +227,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"tBodyGyroJerk-mean()-X" **
 
     
 
@@ -192,6 +240,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"tBodyGyroJerk-mean()-Y"**
+
     
 
 **"timedomainbodygyroscopejerkmeanz"**
@@ -201,6 +251,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"tBodyGyroJerk-mean()-Z" **
 
     
 
@@ -212,6 +264,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"tBodyAccMag-mean()" **
+
     
 
 **timedomaingravityaccelerometermagnitudemean"**
@@ -221,6 +275,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"tGravityAccMag-mean()"**
 
     
 
@@ -232,6 +288,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"tBodyAccJerkMag-mean()" **
+
     
 
 **"timedomainbodygyroscopemagnitudemean"**
@@ -241,6 +299,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"tBodyGyroMag-mean()" **
 
     
 
@@ -252,6 +312,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"tBodyGyroJerkMag-mean()" **
+
     
 
 **"frequencydomainbodyaccelerometermeanx"**
@@ -261,6 +323,10 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"fBodyAcc-mean()-X" **
+
+    
 
     
 
@@ -272,6 +338,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"fBodyAcc-mean()-Y"**
+
     
 
 **"frequencydomainbodyaccelerometermeanz"**
@@ -281,6 +349,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"fBodyAcc-mean()-Z"**
 
     
 
@@ -292,6 +362,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"fBodyAccJerk-mean()-X" **
+
     
 
 **"frequencydomainbodyaccelerometerjerkmeany"**
@@ -301,6 +373,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"fBodyAccJerk-mean()-Y"**
 
     
 
@@ -312,6 +386,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"fBodyAccJerk-mean()-Z"**
+
     
 
 **"frequencydomainbodygyroscopemeanx"**
@@ -321,6 +397,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"fBodyGyro-mean()-X"**
 
     
 
@@ -332,6 +410,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"fBodyGyro-mean()-Y"**
+
     
 
 **"frequencydomainbodygyroscopemeanz"**
@@ -341,6 +421,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"fBodyGyro-mean()-Z"**
 
     
 
@@ -352,6 +434,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"fBodyAccMag-mean()" **
+
     
 
 **"frequencydomainbodyaccelerometerjerkmagnitudemean"**
@@ -361,6 +445,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"fBodyBodyAccJerkMag-mean()"**
 
     
 
@@ -372,6 +458,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"fBodyBodyGyroMag-mean()" **
+
     
 
 **"frequencydomainbodygyroscopejerkmagnitudemean"**
@@ -381,6 +469,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"fBodyBodyGyroJerkMag-mean()"**
 
     
 
@@ -392,6 +482,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"tBodyAcc-std()-X"**
+
     
 
 **"timedomainbodyaccelerometerstdy"**
@@ -401,6 +493,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"tBodyAcc-std()-Y"  **
 
     
 
@@ -412,6 +506,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"tBodyAcc-std()-Z" **
+
     
 
 **"timedomaingravityaccelerometerstdx"**
@@ -421,6 +517,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"tGravityAcc-std()-X"**
 
     
 
@@ -432,6 +530,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"tGravityAcc-std()-Y"**
+
     
 
 **"timedomaingravityaccelerometerstdz"**
@@ -441,6 +541,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+            -   **"tGravityAcc-std()-Z"**
 
     
 
@@ -452,6 +554,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"tBodyAccJerk-std()-X"**
+
     
 
 **"timedomainbodyaccelerometerjerkstdy"**
@@ -461,6 +565,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"tBodyAccJerk-std()-Y"**
 
     
 
@@ -472,6 +578,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"tBodyAccJerk-std()-Z" **
+
     
 
 **"timedomainbodygyroscopestdx"**
@@ -481,6 +589,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"tBodyGyro-std()-X"**
 
     
 
@@ -492,6 +602,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"tBodyGyro-std()-Y" **
+
     
 
 **"timedomainbodygyroscopestdz"**
@@ -501,6 +613,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"tBodyGyro-std()-Z"**
 
     
 
@@ -512,6 +626,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"tBodyGyroJerk-std()-X"**
+
     
 
 **"timedomainbodygyroscopejerkstdy"**
@@ -521,6 +637,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"tBodyGyroJerk-std()-Y"**
 
     
 
@@ -532,6 +650,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"tBodyGyroJerk-std()-Z"**
+
     
 
 **"timedomainbodyaccelerometermagnitudestd"**
@@ -541,6 +661,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"tBodyAccMag-std()"**
 
     
 
@@ -552,6 +674,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"tGravityAccMag-std()"**
+
     
 
 **"timedomainbodyaccelerometerjerkmagnitudestd"**
@@ -561,6 +685,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"tBodyAccJerkMag-std()"**
 
     
 
@@ -572,6 +698,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"tBodyGyroMag-std()"**
+
     
 
 **"timedomainbodygyroscopejerkmagnitudestd"**
@@ -581,6 +709,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"tBodyGyroJerkMag-std()" **
 
     
 
@@ -592,6 +722,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"fBodyAcc-std()-X"**
+
     
 
 **"frequencydomainbodyaccelerometerstdy"**
@@ -601,6 +733,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"fBodyAcc-std()-Y"**
 
     
 
@@ -612,6 +746,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"fBodyAcc-std()-Z"**
+
     
 
 **"frequencydomainbodyaccelerometerjerkstdx"**
@@ -621,6 +757,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"fBodyAccJerk-std()-X" **
 
     
 
@@ -632,6 +770,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"fBodyAccJerk-std()-Y"**
+
     
 
 **"frequencydomainbodyaccelerometerjerkstdz"**
@@ -641,6 +781,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"fBodyAccJerk-std()-Z" **
 
     
 
@@ -652,6 +794,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"fBodyGyro-std()-X"**
+
     
 
 **"frequencydomainbodygyroscopestdy"**
@@ -661,6 +805,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"fBodyGyro-std()-Y"**
 
     
 
@@ -672,6 +818,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"fBodyGyro-std()-Z"**
+
     
 
 **"frequencydomainbodyaccelerometermagnitudestd"**
@@ -681,6 +829,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"fBodyAccMag-std()" **
 
     
 
@@ -692,6 +842,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"fBodyBodyAccJerkMag-std()"**
+
     
 
 **"frequencydomainbodygyroscopemagnitudestd"**
@@ -702,6 +854,8 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
     -   original feature.txt variable name:
 
+        -   **"fBodyBodyGyroMag-std()" **
+
     
 
 **“frequencydomainbodygyroscopejerkmagnitudestd"**
@@ -711,5 +865,7 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
+
+        -   **"fBodyBodyGyroJerkMag-std()"**
 
     

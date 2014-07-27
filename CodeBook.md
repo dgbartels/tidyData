@@ -1,11 +1,22 @@
 
 
+CodeBook
+========
+
+tidyData.txt was produced as an assignment for Getting and Cleaning Data, a
+course in the Data Science Specialization from Johns Hopkins University through
+[coursera.org][1].
+
+[1]: <http://coursera.org>
+
+
+
 ### **A Note on Variable Naming Conventions**
 
 Descriptive variable names were constructed conforming to the conventions listed
 below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
-<http://jtleek.github.io/modules/03_GettingData/04_01_editingTextVariables>
+<http://jtleek.github.io/modules/03_GettingData/04_01_editingTextVariables/#16>
 
 
 

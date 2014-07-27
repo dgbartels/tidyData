@@ -1,3 +1,32 @@
+
+
+### **A Note on Variable Naming Conventions**
+
+Descriptive variable names were constructed conforming to the conventions listed
+below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
+
+<http://jtleek.github.io/modules/03_GettingData/04_01_editingTextVariables>
+
+
+
+-   Important points about text in data sets
+
+    -   Names of variables should be:
+
+        -   All lower case when possible
+
+        -   Descriptive (Diagnosis versus Dx)
+
+        -   Not duplicated
+
+        -   Not have underscores or dots or white spaces
+
+
+
+### **tidyData.txt Variables**
+
+
+
 **“subject”**
 
     -   value: 1:30

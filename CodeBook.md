@@ -4,10 +4,12 @@ CodeBook
 ========
 
 tidyData.txt was produced as an assignment for Getting and Cleaning Data, a
-course in the Data Science Specialization from Johns Hopkins University through
-[coursera.org][1].
+course in the [Data Science Specialization][2] from Johns Hopkins University
+through [coursera.org][1].
 
 [1]: <http://coursera.org>
+
+[2]: <https://www.coursera.org/specialization/jhudatascience/1?utm_medium=listingPage>
 
 
 

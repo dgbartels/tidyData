@@ -1,11 +1,11 @@
 
 
-CodeBook
-========
+**CodeBook**
+============
 
-tidyData.txt was produced as an assignment for Getting and Cleaning Data, a
-course in the [Data Science Specialization][2] from Johns Hopkins University
-through [coursera.org][1].
+run_analysis.R and tidyData.txt were produced as an assignment for Getting and
+Cleaning Data, a course in the [Data Science Specialization][2] from Johns
+Hopkins University through [coursera.org][1].
 
 [1]: <http://coursera.org>
 

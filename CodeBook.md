@@ -1,24 +1,24 @@
 
 
-**CodeBook**
-============
+CodeBook
+========
 
 run_analysis.R and tidyData.txt were produced as an assignment for Getting and
-Cleaning Data, a course in the [Data Science Specialization][2] from Johns
-Hopkins University through [coursera.org][1].
+Cleaning Data, a course in the Data Science Specialization2 from Johns Hopkins
+University through coursera.org1.
 
-[1]: <http://coursera.org>
+[^]: 1http://coursera.org
 
-[2]: <https://www.coursera.org/specialization/jhudatascience/1?utm_medium=listingPage>
+[^]: 2https://www.coursera.org/specialization/jhudatascience/1?utm_medium=listingPage
 
 
 
-### **A Note on Variable Naming Conventions**
+### A Note on Variable Naming Conventions
 
 Descriptive variable names were constructed conforming to the conventions listed
 below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
-<http://jtleek.github.io/modules/03_GettingData/04_01_editingTextVariables/#16>
+http://jtleek.github.io/modules/03_GettingData/04_01_editingTextVariables/#16
 
 
 
@@ -36,7 +36,7 @@ below and found on slide 16 of the Week 4 Lecture, "Editing Text Variables”.
 
 
 
-### **tidyData.txt Variables**
+### tidyData.txt Variables
 
 
 
@@ -45,7 +45,7 @@ Information on raw data, see the original source documents at:
 
 
 
-<http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 
 
@@ -54,7 +54,7 @@ dimensionless as they have been normalized in the raw data.
 
 
 
-**“subject”**
+“subject”
 
     -   value: 1:30
 
@@ -67,7 +67,7 @@ dimensionless as they have been normalized in the raw data.
 
 
 
-**“activitylabel"**
+“activitylabel"
 
     -   factor levels: “WALKING”, “WALKING_UPSTAIRS”, “WALKING_DOWNSTAIRS”,
         “SITTING”, “STANDING”, “LAYING"
@@ -78,7 +78,7 @@ dimensionless as they have been normalized in the raw data.
 
     
 
-**"timedomainbodyaccelerometermeanx"**
+"timedomainbodyaccelerometermeanx"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -86,11 +86,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyAcc-mean()-X"**
+        -   "tBodyAcc-mean()-X"
 
-    
+        
 
-**"timedomainbodyaccelerometermeany"**
+"timedomainbodyaccelerometermeany"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -98,33 +98,35 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyAcc-mean()-Y"**
+        -   "tBodyAcc-mean()-Y"
 
-**"timedomainbodyaccelerometermeanz"**
+        
 
+"timedomainbodyaccelerometermeanz"
+
     -   values: normalized and bounded within [-1,1]
 
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
     -   original feature.txt variable name:
 
-        -   **"tBodyAcc-mean()-Z" **
+        -   "tBodyAcc-mean()-Z"
 
     
 
-**"timedomaingravityaccelerometermeanx"**
+"timedomaingravityaccelerometermeanx"
 
     -   values: normalized and bounded within [-1,1]
 
     -   original source: either X_train.txt or X_test.txt / UCI HAR Dataset
 
-    -   original feature.txt variable name:**  **
+    -   original feature.txt variable name:
 
-        -   **"tGravityAcc-mean()-X"**
+        -   "tGravityAcc-mean()-X"
 
     
 
-**"timedomaingravityaccelerometermeany"**
+"timedomaingravityaccelerometermeany"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -132,11 +134,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tGravityAcc-mean()-Y"**
+        -   "tGravityAcc-mean()-Y"
 
     
 
-**"timedomaingravityaccelerometermeanz"**
+"timedomaingravityaccelerometermeanz"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -144,11 +146,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tGravityAcc-mean()-Z"**
+        -   "tGravityAcc-mean()-Z"
 
     
 
-**"timedomainbodyaccelerometerjerkmeanx"**
+"timedomainbodyaccelerometerjerkmeanx"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -156,11 +158,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyAccJerk-mean()-X"**
+        -   "tBodyAccJerk-mean()-X"
 
     
 
-**"timedomainbodyaccelerometerjerkmeany"**
+"timedomainbodyaccelerometerjerkmeany"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -168,11 +170,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyAccJerk-mean()-Y"**
+        -   "tBodyAccJerk-mean()-Y"
 
     
 
-**"timedomainbodyaccelerometerjerkmeanz"**
+"timedomainbodyaccelerometerjerkmeanz"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -180,11 +182,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyAccJerk-mean()-Z" **
+        -   "tBodyAccJerk-mean()-Z"
 
     
 
-**"timedomainbodygyroscopemeanx"**
+"timedomainbodygyroscopemeanx"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -192,11 +194,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyGyro-mean()-X"**
+        -   "tBodyGyro-mean()-X"
 
     
 
-**"timedomainbodygyroscopemeany"**
+"timedomainbodygyroscopemeany"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -204,11 +206,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyGyro-mean()-Y" **
+        -   "tBodyGyro-mean()-Y"
 
     
 
-**"timedomainbodygyroscopemeanz"**
+"timedomainbodygyroscopemeanz"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -216,11 +218,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyGyro-mean()-Z"**
+        -   "tBodyGyro-mean()-Z"
 
     
 
-**"timedomainbodygyroscopejerkmeanx"**
+"timedomainbodygyroscopejerkmeanx"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -228,11 +230,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyGyroJerk-mean()-X" **
+        -   "tBodyGyroJerk-mean()-X"
 
     
 
-**"timedomainbodygyroscopejerkmeany"**
+"timedomainbodygyroscopejerkmeany"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -240,11 +242,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyGyroJerk-mean()-Y"**
+        -   "tBodyGyroJerk-mean()-Y"
 
     
 
-**"timedomainbodygyroscopejerkmeanz"**
+"timedomainbodygyroscopejerkmeanz"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -252,11 +254,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyGyroJerk-mean()-Z" **
+        -   "tBodyGyroJerk-mean()-Z"
 
     
 
-**"timedomainbodyaccelerometermagnitudemean"**
+"timedomainbodyaccelerometermagnitudemean"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -264,11 +266,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyAccMag-mean()" **
+        -   "tBodyAccMag-mean()"
 
     
 
-**timedomaingravityaccelerometermagnitudemean"**
+timedomaingravityaccelerometermagnitudemean"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -276,11 +278,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tGravityAccMag-mean()"**
+        -   "tGravityAccMag-mean()"
 
     
 
-**"timedomainbodyaccelerometerjerkmagnitudemean"**
+"timedomainbodyaccelerometerjerkmagnitudemean"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -288,11 +290,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyAccJerkMag-mean()" **
+        -   "tBodyAccJerkMag-mean()"
 
     
 
-**"timedomainbodygyroscopemagnitudemean"**
+"timedomainbodygyroscopemagnitudemean"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -300,11 +302,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyGyroMag-mean()" **
+        -   "tBodyGyroMag-mean()"
 
     
 
-**"timedomainbodygyroscopejerkmagnitudemean"**
+"timedomainbodygyroscopejerkmagnitudemean"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -312,11 +314,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyGyroJerkMag-mean()" **
+        -   "tBodyGyroJerkMag-mean()"
 
     
 
-**"frequencydomainbodyaccelerometermeanx"**
+"frequencydomainbodyaccelerometermeanx"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -324,13 +326,13 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyAcc-mean()-X" **
+        -   "fBodyAcc-mean()-X"
 
     
 
     
 
-**"frequencydomainbodyaccelerometermeany"**
+"frequencydomainbodyaccelerometermeany"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -338,11 +340,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyAcc-mean()-Y"**
+        -   "fBodyAcc-mean()-Y"
 
     
 
-**"frequencydomainbodyaccelerometermeanz"**
+"frequencydomainbodyaccelerometermeanz"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -350,11 +352,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyAcc-mean()-Z"**
+        -   "fBodyAcc-mean()-Z"
 
     
 
-**"frequencydomainbodyaccelerometerjerkmeanx"**
+"frequencydomainbodyaccelerometerjerkmeanx"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -362,11 +364,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyAccJerk-mean()-X" **
+        -   "fBodyAccJerk-mean()-X"
 
     
 
-**"frequencydomainbodyaccelerometerjerkmeany"**
+"frequencydomainbodyaccelerometerjerkmeany"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -374,11 +376,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyAccJerk-mean()-Y"**
+        -   "fBodyAccJerk-mean()-Y"
 
     
 
-**"frequencydomainbodyaccelerometerjerkmeanz"**
+"frequencydomainbodyaccelerometerjerkmeanz"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -386,11 +388,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyAccJerk-mean()-Z"**
+        -   "fBodyAccJerk-mean()-Z"
 
     
 
-**"frequencydomainbodygyroscopemeanx"**
+"frequencydomainbodygyroscopemeanx"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -398,11 +400,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyGyro-mean()-X"**
+        -   "fBodyGyro-mean()-X"
 
     
 
-**"frequencydomainbodygyroscopemeany"**
+"frequencydomainbodygyroscopemeany"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -410,11 +412,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyGyro-mean()-Y"**
+        -   "fBodyGyro-mean()-Y"
 
     
 
-**"frequencydomainbodygyroscopemeanz"**
+"frequencydomainbodygyroscopemeanz"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -422,11 +424,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyGyro-mean()-Z"**
+        -   "fBodyGyro-mean()-Z"
 
     
 
-**"frequencydomainbodyaccelerometermagnitudemean"**
+"frequencydomainbodyaccelerometermagnitudemean"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -434,11 +436,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyAccMag-mean()" **
+        -   "fBodyAccMag-mean()"
 
     
 
-**"frequencydomainbodyaccelerometerjerkmagnitudemean"**
+"frequencydomainbodyaccelerometerjerkmagnitudemean"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -446,11 +448,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyBodyAccJerkMag-mean()"**
+        -   "fBodyBodyAccJerkMag-mean()"
 
     
 
-**"frequencydomainbodygyroscopemagnitudemean"**
+"frequencydomainbodygyroscopemagnitudemean"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -458,11 +460,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyBodyGyroMag-mean()" **
+        -   "fBodyBodyGyroMag-mean()"
 
     
 
-**"frequencydomainbodygyroscopejerkmagnitudemean"**
+"frequencydomainbodygyroscopejerkmagnitudemean"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -470,11 +472,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyBodyGyroJerkMag-mean()"**
+        -   "fBodyBodyGyroJerkMag-mean()"
 
     
 
-**"timedomainbodyaccelerometerstdx"**
+"timedomainbodyaccelerometerstdx"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -482,11 +484,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyAcc-std()-X"**
+        -   "tBodyAcc-std()-X"
 
     
 
-**"timedomainbodyaccelerometerstdy"**
+"timedomainbodyaccelerometerstdy"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -494,11 +496,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyAcc-std()-Y"  **
+        -   "tBodyAcc-std()-Y"
 
     
 
-**"timedomainbodyaccelerometerstdz"**
+"timedomainbodyaccelerometerstdz"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -506,11 +508,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyAcc-std()-Z" **
+        -   "tBodyAcc-std()-Z"
 
     
 
-**"timedomaingravityaccelerometerstdx"**
+"timedomaingravityaccelerometerstdx"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -518,11 +520,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tGravityAcc-std()-X"**
+        -   "tGravityAcc-std()-X"
 
     
 
-**"timedomaingravityaccelerometerstdy"**
+"timedomaingravityaccelerometerstdy"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -530,11 +532,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tGravityAcc-std()-Y"**
+        -   "tGravityAcc-std()-Y"
 
     
 
-**"timedomaingravityaccelerometerstdz"**
+"timedomaingravityaccelerometerstdz"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -542,11 +544,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-            -   **"tGravityAcc-std()-Z"**
+            -   "tGravityAcc-std()-Z"
 
     
 
-**"timedomainbodyaccelerometerjerkstdx"**
+"timedomainbodyaccelerometerjerkstdx"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -554,11 +556,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyAccJerk-std()-X"**
+        -   "tBodyAccJerk-std()-X"
 
     
 
-**"timedomainbodyaccelerometerjerkstdy"**
+"timedomainbodyaccelerometerjerkstdy"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -566,11 +568,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyAccJerk-std()-Y"**
+        -   "tBodyAccJerk-std()-Y"
 
     
 
-**"timedomainbodyaccelerometerjerkstdz"**
+"timedomainbodyaccelerometerjerkstdz"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -578,11 +580,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyAccJerk-std()-Z" **
+        -   "tBodyAccJerk-std()-Z"
 
     
 
-**"timedomainbodygyroscopestdx"**
+"timedomainbodygyroscopestdx"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -590,11 +592,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyGyro-std()-X"**
+        -   "tBodyGyro-std()-X"
 
     
 
-**"timedomainbodygyroscopestdy"**
+"timedomainbodygyroscopestdy"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -602,11 +604,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyGyro-std()-Y" **
+        -   "tBodyGyro-std()-Y"
 
     
 
-**"timedomainbodygyroscopestdz"**
+"timedomainbodygyroscopestdz"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -614,11 +616,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyGyro-std()-Z"**
+        -   "tBodyGyro-std()-Z"
 
     
 
-**"timedomainbodygyroscopejerkstdx"**
+"timedomainbodygyroscopejerkstdx"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -626,11 +628,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyGyroJerk-std()-X"**
+        -   "tBodyGyroJerk-std()-X"
 
     
 
-**"timedomainbodygyroscopejerkstdy"**
+"timedomainbodygyroscopejerkstdy"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -638,11 +640,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyGyroJerk-std()-Y"**
+        -   "tBodyGyroJerk-std()-Y"
 
     
 
-**"timedomainbodygyroscopejerkstdz"**
+"timedomainbodygyroscopejerkstdz"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -650,11 +652,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyGyroJerk-std()-Z"**
+        -   "tBodyGyroJerk-std()-Z"
 
     
 
-**"timedomainbodyaccelerometermagnitudestd"**
+"timedomainbodyaccelerometermagnitudestd"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -662,11 +664,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyAccMag-std()"**
+        -   "tBodyAccMag-std()"
 
     
 
-**"timedomaingravityaccelerometermagnitudestd"**
+"timedomaingravityaccelerometermagnitudestd"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -674,11 +676,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tGravityAccMag-std()"**
+        -   "tGravityAccMag-std()"
 
     
 
-**"timedomainbodyaccelerometerjerkmagnitudestd"**
+"timedomainbodyaccelerometerjerkmagnitudestd"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -686,11 +688,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyAccJerkMag-std()"**
+        -   "tBodyAccJerkMag-std()"
 
     
 
-**"timedomainbodygyroscopemagnitudestd"**
+"timedomainbodygyroscopemagnitudestd"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -698,11 +700,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyGyroMag-std()"**
+        -   "tBodyGyroMag-std()"
 
     
 
-**"timedomainbodygyroscopejerkmagnitudestd"**
+"timedomainbodygyroscopejerkmagnitudestd"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -710,11 +712,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"tBodyGyroJerkMag-std()" **
+        -   "tBodyGyroJerkMag-std()"
 
     
 
-**"frequencydomainbodyaccelerometerstdx"**
+"frequencydomainbodyaccelerometerstdx"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -722,11 +724,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyAcc-std()-X"**
+        -   "fBodyAcc-std()-X"
 
     
 
-**"frequencydomainbodyaccelerometerstdy"**
+"frequencydomainbodyaccelerometerstdy"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -734,11 +736,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyAcc-std()-Y"**
+        -   "fBodyAcc-std()-Y"
 
     
 
-**"frequencydomainbodyaccelerometerstdz"**
+"frequencydomainbodyaccelerometerstdz"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -746,11 +748,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyAcc-std()-Z"**
+        -   "fBodyAcc-std()-Z"
 
     
 
-**"frequencydomainbodyaccelerometerjerkstdx"**
+"frequencydomainbodyaccelerometerjerkstdx"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -758,11 +760,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyAccJerk-std()-X" **
+        -   "fBodyAccJerk-std()-X"
 
     
 
-**"frequencydomainbodyaccelerometerjerkstdy"**
+"frequencydomainbodyaccelerometerjerkstdy"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -770,11 +772,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyAccJerk-std()-Y"**
+        -   "fBodyAccJerk-std()-Y"
 
     
 
-**"frequencydomainbodyaccelerometerjerkstdz"**
+"frequencydomainbodyaccelerometerjerkstdz"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -782,11 +784,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyAccJerk-std()-Z" **
+        -   "fBodyAccJerk-std()-Z"
 
     
 
-**"frequencydomainbodygyroscopestdx"**
+"frequencydomainbodygyroscopestdx"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -794,11 +796,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyGyro-std()-X"**
+        -   "fBodyGyro-std()-X"
 
     
 
-**"frequencydomainbodygyroscopestdy"**
+"frequencydomainbodygyroscopestdy"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -806,11 +808,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyGyro-std()-Y"**
+        -   "fBodyGyro-std()-Y"
 
     
 
-**"frequencydomainbodygyroscopestdz"**
+"frequencydomainbodygyroscopestdz"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -818,11 +820,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyGyro-std()-Z"**
+        -   "fBodyGyro-std()-Z"
 
     
 
-**"frequencydomainbodyaccelerometermagnitudestd"**
+"frequencydomainbodyaccelerometermagnitudestd"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -830,11 +832,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyAccMag-std()" **
+        -   "fBodyAccMag-std()"
 
     
 
-**"frequencydomainbodyaccelerometerjerkmagnitudestd"**
+"frequencydomainbodyaccelerometerjerkmagnitudestd"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -842,11 +844,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyBodyAccJerkMag-std()"**
+        -   "fBodyBodyAccJerkMag-std()"
 
     
 
-**"frequencydomainbodygyroscopemagnitudestd"**
+"frequencydomainbodygyroscopemagnitudestd"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -854,11 +856,11 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyBodyGyroMag-std()" **
+        -   "fBodyBodyGyroMag-std()"
 
     
 
-**“frequencydomainbodygyroscopejerkmagnitudestd"**
+“frequencydomainbodygyroscopejerkmagnitudestd"
 
     -   values: normalized and bounded within [-1,1]
 
@@ -866,6 +868,6 @@ dimensionless as they have been normalized in the raw data.
 
     -   original feature.txt variable name:
 
-        -   **"fBodyBodyGyroJerkMag-std()"**
+        -   "fBodyBodyGyroJerkMag-std()"
 
     
